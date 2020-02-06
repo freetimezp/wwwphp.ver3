@@ -1,0 +1,54 @@
+.container {
+	margin-top: 50px;
+}
+
+.form {
+	background-color: #2FCC9A;
+	border-radius: 10px;
+	border: 2px solid #228e6c;
+	padding: 20px 10px;
+	display: flex;
+ margin-bottom: 20px;
+}
+
+#task {
+ width: 90%;
+ margin-right: 10px;
+}
+
+ul, li, a {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+ul li {
+	padding: 10px 15px;
+	background-color: #ECE7E7;
+	margin-bottom: 12px;
+	border-radius: 3px;
+	border: 1px solid #AFADAD;
+	transition: all 0.5 ease;
+	display: flex;
+	justify-content: space-between;
+}
+
+ul li:hover {
+	background-color: #D0CDCD;
+	border: 1px solid #8C8B8B;
+}
+
+button {
+	padding: 10px 30px;
+	display: inline-block;
+	margin-left: auto;
+	background-color: #94CAEF;
+	border: 1px solid #629FC9;
+	transition: all 0.8 ease;
+	border-radius: 3px;
+	font-weight: bold;
+}
+
+button:hover {
+	background-color: #3D90C9;
+	border: 1px solid #104569;
+}
